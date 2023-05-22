@@ -1,0 +1,208 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:500,700,400");
+
+
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.divprimary-button_component {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 0;
+    margin-top: 3rem;
+    position: relative;
+    width: fit-content;
+}
+
+.divprimary-button_ghost {
+    border: 2px solid;
+    border-color: var(--bastille);
+    border-radius: 10px;
+    height: 56px;
+    left: -4px;
+    position: absolute;
+    top: 4px;
+    width: 150px;
+}
+
+.divprimary-button_ghost_left {
+    background-color: var(--white);
+    border-radius: 10px 0px 0px 0px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 14px;
+}
+
+.divprimary-button_ghost_right {
+    background-color: var(--white);
+    border-radius: 0px 0px 10px 0px;
+    height: 14px;
+    left: 140px;
+    position: absolute;
+    top: 42px;
+    width: 14px;
+}
+
+.abutton-3 {
+    align-items: flex-start;
+    background-color: var(--bastille);
+    border-radius: 8px;
+    display: flex;
+    padding: 0px 40.16px 0px 40.5px;
+    position: relative;
+    width: fit-content;
+}
+
+.sigun-up-button {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-up {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 56px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+
+}
+
+.divsection_hero {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    min-height: 1341px;
+    width: 100%;
+}
+
+.divsection_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    min-height: 389px;
+    padding: 0 228.5px;
+    position: relative;
+    width: 100%;
+}
+
+.h1heading-text-crossed {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14.23px;
+    margin-left: 0.01px;
+    padding: 28px 2.47px 30.24px 2px;
+    position: relative;
+    width: fit-content;
+}
+
+.ats-for-talent-acquisition-managers {
+    color: var(--bastille);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30.2px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.svg {
+    height: 19px;
+    left: 54px;
+    position: absolute;
+    top: 32px;
+    width: 526px;
+}
+
+.title {
+    color: var(--bastille);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 74.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.it-takes-a-team-to-w {
+    align-self: flex-end;
+    color: var(--nevada);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    height: 65px;
+    letter-spacing: 0;
+    line-height: 32.4px;
+    margin-top: 16px;
+    min-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.featuredsvg {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.valign-text-middel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divpadding-section-small {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-height: 100px;
+    padding: 54px 0;
+    width: 100%;
+}
+
+.divlogos {
+    height: 58px;
+    width: 100%;
+}
+
+.trusted-by-modern-te {
+    color: var(--nevada);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 32.4px;
+    margin-top: 16px;
+    min-width: 100%;
+    position: relative;
+    text-align: center;
+}

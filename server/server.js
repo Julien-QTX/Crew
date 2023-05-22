@@ -1,8 +1,17 @@
-const express = require('express')
+const express = require('../client/node_modules/@types/express')
 const app = express()
+const bodyParser = require('../client/node_modules/@types/body-parser')
+const port = 3001
+const cors = require('cors')
+const usersMiddleware = require('./users/route')
 
-app.get("/api", (rep, res) => {
-    res.json({ "users": ["userOne", "userTwo", "userThree"] })
-})
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.listen(3000, () => { console.log("Server started on port 3000") })
+app.use(cors({ origin: "http://localhost:3000" }));
+
+app.use("/users", usersMiddleware.routes)
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+});
