@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "react-jss": "^10.10.0"
+    "bootstrap": "^5.2.3",
+    "hamburger-react": "^2.5.0",
+    "react-bootstrap": "^2.7.4"
   }
 }
